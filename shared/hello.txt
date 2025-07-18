@@ -1,0 +1,3 @@
+Hello from peer on port 5001!
+This is a sample text file for testing the P2P system.
+Current timestamp: 1752670141222

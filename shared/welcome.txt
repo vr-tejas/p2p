@@ -1,0 +1,15 @@
+🌐 Welcome to the P2P File Sharing System! 🌐
+
+This is a sample file to demonstrate the file sharing capabilities.
+
+Features of this P2P system:
+✅ Peer-to-peer file transfer using TCP sockets
+✅ Multi-threaded server to handle multiple connections
+✅ Easy CLI interface for beginners
+✅ File integrity preservation during transfer
+✅ Real-time progress feedback
+
+Created by: P2P File Sharing System
+Timestamp: System startup
+
+Happy file sharing! 🚀 
