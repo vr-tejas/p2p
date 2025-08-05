@@ -96,7 +96,7 @@ while (running) {
 project/
 ├── shared/          # Files available for sharing
 ├── downloads/       # Files downloaded from peers
-├── PeerClean.java   # Main application
+├── Peer.java        # Main application
 ├── ServerThread.java
 ├── ClientHandler.java
 └── FileManager.java
@@ -134,7 +134,7 @@ project/
 ```
 
 ### User Interaction Flow
-1. **Start peer**: `java PeerClean <port>`
+1. **Start peer**: `java Peer <port>`
 2. **Connect to peer**: Enter IP and port
 3. **Share files**: Place files in shared/ directory
 4. **Download files**: Select from peer's file list
@@ -169,10 +169,10 @@ project/
 ### Local Testing Setup
 ```bash
 # Terminal 1 - Start first peer
-java PeerClean 5000
+java Peer 5000
 
 # Terminal 2 - Start second peer  
-java PeerClean 5001
+java Peer 5001
 
 # Connect peers: 127.0.0.1:5000 ↔ 127.0.0.1:5001
 ```
